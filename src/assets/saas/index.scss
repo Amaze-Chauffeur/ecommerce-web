@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+$text-color-hover: #064420;
+$text-color: #212121;
+.megasubmenu {
+  padding: 1rem;
+}
+
+@media all and (min-width: 992px) {
+  .megasubmenu {
+    left: 100%;
+    top: 0;
+    min-height: 100%;
+    min-width: 220px;
+    box-shadow: 1px 1px 11px 0 rgba(1, 1, 1, 0.07);
+    border: none;
+  }
+
+  .dropdown-menu > li:hover .megasubmenu {
+    display: block;
+  }
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.expandIcon {
+  font-size: 14px !important;
+  float: right;
+  display: none;
+}
+.expandBottom {
+  font-size: 14px !important;
+}
+.topMenuImg {
+  width: 64px;
+  height: 64px;
+}
+ul.dropdown-menu.show {
+  width: 220px;
+  border: none;
+  box-shadow: 1px 1px 11px 0 rgba(1, 1, 1, 0.07);
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: $text-color-hover;
+  background-color: #f3f3f3;
+  font-weight: 500;
+  .expandIcon {
+    display: block;
+  }
+}
+// .dropdown-item:focus, .dropdown-item:hover .expandIcon
+// {
+//   display: block;
+// }
+.dropdown-item {
+  padding: 10px 25px;
+  line-height: 20px;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: $text-color;
+  &:focus,
+  &:hover {
+    color: $text-color-hover;
+  }
+}
+li.nav-item {
+  text-align: center;
+  padding: 0 30px;
+}
+.secDropDown {
+  list-style: none;
+  padding-left: 0;
+}
+.innerRightDrop {
+  padding: 10px 25px;
+  line-height: 20px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  a {
+    color: $text-color;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $text-color-hover;
+    background-color: #f3f3f3;
+    font-weight: 500;
+  }
+}
