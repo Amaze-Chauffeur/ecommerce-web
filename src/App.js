@@ -1,11 +1,15 @@
-import './App.css';
-import HeaderMenu from './components/HeaderMenu';
-function App() {
+import React from "react";
+import "./App.css";
+import HeaderMenu from "./components/HeaderMenu";
+import { LoginPopup, NewUser } from "./components/LoginPopup";
+const App = () => {
   return (
-   <>
-     <HeaderMenu />
-   </>
+    <>
+      <HeaderMenu />
+      <LoginPopup />
+      <NewUser />
+    </>
   );
-}
+};
 
 export default App;
