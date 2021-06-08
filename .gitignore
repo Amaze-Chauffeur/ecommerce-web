@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -24,3 +25,8 @@ yarn-error.log*
 
 #Reference Links file
 Links.txt
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+Links.txt
+>>>>>>> cafe14b6bfff971999d9d1daff354a60190214d9
