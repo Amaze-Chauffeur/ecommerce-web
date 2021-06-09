@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import HeaderMenu from "./components/HeaderMenu";
 import { LoginPopup, NewUser } from "./components/LoginPopup";
 import Navbar from "./components/Navbar";

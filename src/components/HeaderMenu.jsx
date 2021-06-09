@@ -1,8 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "@material-ui/core";
-import topOffer from "../assets/images/topOffer.png";
-import grocery from "../assets/images/grocery.png";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 import { FashionMenTopData, FashionWomenTopData } from "./MenuData";
@@ -25,14 +23,14 @@ const HeaderMenu = (props) => {
             <div className="collapse navbar-collapse" id="main_nav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <img src={topOffer} className="topMenuImg" />
+                  <img src="images/topOffer.png" className="topMenuImg" />
                   <a className="nav-link" href="#">
                     Top Offer
                   </a>
                 </li>
 
                 <li className="nav-item dropdown">
-                  <img src={grocery} className="topMenuImg" />
+                  <img src="images/grocery.png" className="topMenuImg" />
                   <a
                     className="nav-link dropdown-toggle"
                     href="#"
@@ -136,37 +134,37 @@ const HeaderMenu = (props) => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <img src={grocery} className="topMenuImg" />
+                  <img src="images/grocery.png" className="topMenuImg" />
                   <a className="nav-link" href="#">
                     Grocery
                   </a>
                 </li>
                 <li className="nav-item">
-                  <img src={topOffer} className="topMenuImg" />
+                  <img src="images/topOffer.png" className="topMenuImg" />
                   <a className="nav-link" href="#">
                     Mobiles
                   </a>
                 </li>
                 <li className="nav-item">
-                  <img src={grocery} className="topMenuImg" />
+                  <img src="images/grocery.png" className="topMenuImg" />
                   <a className="nav-link" href="#">
                     Electronics
                   </a>
                 </li>
                 <li className="nav-item">
-                  <img src={topOffer} className="topMenuImg" />
+                  <img src="images/topOffer.png" className="topMenuImg" />
                   <a className="nav-link" href="#">
                     Appliances
                   </a>
                 </li>
                 <li className="nav-item">
-                  <img src={grocery} className="topMenuImg" />
+                  <img src="images/grocery.png" className="topMenuImg" />
                   <a className="nav-link" href="#">
                     Travel
                   </a>
                 </li>
                 <li className="nav-item">
-                  <img src={topOffer} className="topMenuImg" />
+                  <img src="images/topOffer.png" className="topMenuImg" />
                   <a className="nav-link" href="#">
                     Beauty, Toys & More
                   </a>

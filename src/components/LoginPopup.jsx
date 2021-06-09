@@ -1,5 +1,4 @@
 import React from "react";
-import loginBottom from "../assets/images/loginBottom.jpg";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import { TextField, Button, Container } from "@material-ui/core";
@@ -31,7 +30,7 @@ const LoginPopup = () => {
               <p className="logintext mb-5">
                 Get access to your Orders, Wishlist and Recommendations
               </p>
-              <img src={loginBottom} className="mt-5" />
+              <img src="images/loginBottom.jpg" className="mt-5" />
             </div>
             <div className="col-md-7">
               <form className="loginForm" noValidate autoComplete="on">
@@ -106,7 +105,7 @@ const NewUser = () => {
               <p className="logintext mb-5">
                 Sign up with your mobile number to get started
               </p>
-              <img src={loginBottom} className="mt-5" />
+              <img src="images/loginBottom.jpg" className="mt-5" />
             </div>
             <div className="col-md-7">
               <form className="loginForm" noValidate autoComplete="on">
